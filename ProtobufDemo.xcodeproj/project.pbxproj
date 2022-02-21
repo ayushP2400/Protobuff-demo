@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D19B94745DBD0CD384B5ADC /* Pods_ProtobufDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C29AAE59DB45F2F57E9A3C7 /* Pods_ProtobufDemo.framework */; };
 		9CED04E927A3BBF7005ECB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED04E827A3BBF7005ECB4B /* AppDelegate.swift */; };
 		9CED04ED27A3BBF7005ECB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED04EC27A3BBF7005ECB4B /* ViewController.swift */; };
 		9CED04F027A3BBF7005ECB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CED04EE27A3BBF7005ECB4B /* Main.storyboard */; };
 		9CED04F227A3BBF9005ECB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CED04F127A3BBF9005ECB4B /* Assets.xcassets */; };
 		9CED04F527A3BBF9005ECB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CED04F327A3BBF9005ECB4B /* LaunchScreen.storyboard */; };
-		9CED050527A3BC66005ECB4B /* EmailLoginRequest.proto in Sources */ = {isa = PBXBuildFile; fileRef = 9CED050427A3BC66005ECB4B /* EmailLoginRequest.proto */; };
-		9CED050727A3C058005ECB4B /* EmailLoginRequest.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED050627A3C058005ECB4B /* EmailLoginRequest.pb.swift */; };
 		9CED050A27A3C46B005ECB4B /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 9CED050927A3C46B005ECB4B /* SwiftProtobuf */; };
+		C42B6B6E27C3B58E001E9D9A /* sample.proto in Sources */ = {isa = PBXBuildFile; fileRef = C42B6B6D27C3B58E001E9D9A /* sample.proto */; };
+		C42B6B7A27C3BCA1001E9D9A /* sample.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B6B7827C3BCA1001E9D9A /* sample.grpc.swift */; };
+		C42B6B7B27C3BCA1001E9D9A /* sample.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B6B7927C3BCA1001E9D9A /* sample.pb.swift */; };
+		C42B6B8127C3BE9C001E9D9A /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = C42B6B8027C3BE9C001E9D9A /* GRPC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C29AAE59DB45F2F57E9A3C7 /* Pods_ProtobufDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtobufDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		620DD13351A02CC69A45A71A /* Pods-ProtobufDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtobufDemo.release.xcconfig"; path = "Target Support Files/Pods-ProtobufDemo/Pods-ProtobufDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9CED04E527A3BBF7005ECB4B /* ProtobufDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtobufDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED04E827A3BBF7005ECB4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CED04EC27A3BBF7005ECB4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,8 +30,10 @@
 		9CED04F127A3BBF9005ECB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CED04F427A3BBF9005ECB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CED04F627A3BBF9005ECB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CED050427A3BC66005ECB4B /* EmailLoginRequest.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = EmailLoginRequest.proto; sourceTree = "<group>"; };
-		9CED050627A3C058005ECB4B /* EmailLoginRequest.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailLoginRequest.pb.swift; sourceTree = "<group>"; };
+		B77D099F7F928B380482E293 /* Pods-ProtobufDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtobufDemo.debug.xcconfig"; path = "Target Support Files/Pods-ProtobufDemo/Pods-ProtobufDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C42B6B6D27C3B58E001E9D9A /* sample.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = sample.proto; sourceTree = "<group>"; };
+		C42B6B7827C3BCA1001E9D9A /* sample.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sample.grpc.swift; sourceTree = "<group>"; };
+		C42B6B7927C3BCA1001E9D9A /* sample.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sample.pb.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +42,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CED050A27A3C46B005ECB4B /* SwiftProtobuf in Frameworks */,
+				5D19B94745DBD0CD384B5ADC /* Pods_ProtobufDemo.framework in Frameworks */,
+				C42B6B8127C3BE9C001E9D9A /* GRPC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06B276B97CC1556E266C7952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C29AAE59DB45F2F57E9A3C7 /* Pods_ProtobufDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26E613DEB4F83B2B9F052A11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B77D099F7F928B380482E293 /* Pods-ProtobufDemo.debug.xcconfig */,
+				620DD13351A02CC69A45A71A /* Pods-ProtobufDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9CED04DC27A3BBF7005ECB4B = {
 			isa = PBXGroup;
 			children = (
 				9CED04E727A3BBF7005ECB4B /* ProtobufDemo */,
 				9CED04E627A3BBF7005ECB4B /* Products */,
+				26E613DEB4F83B2B9F052A11 /* Pods */,
+				06B276B97CC1556E266C7952 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,8 +102,9 @@
 		9CED050327A3BC44005ECB4B /* Proto */ = {
 			isa = PBXGroup;
 			children = (
-				9CED050627A3C058005ECB4B /* EmailLoginRequest.pb.swift */,
-				9CED050427A3BC66005ECB4B /* EmailLoginRequest.proto */,
+				C42B6B6D27C3B58E001E9D9A /* sample.proto */,
+				C42B6B7827C3BCA1001E9D9A /* sample.grpc.swift */,
+				C42B6B7927C3BCA1001E9D9A /* sample.pb.swift */,
 			);
 			path = Proto;
 			sourceTree = "<group>";
@@ -87,6 +116,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CED04F927A3BBF9005ECB4B /* Build configuration list for PBXNativeTarget "ProtobufDemo" */;
 			buildPhases = (
+				7278CB290DBAB8019825EA80 /* [CP] Check Pods Manifest.lock */,
 				9CED04E127A3BBF7005ECB4B /* Sources */,
 				9CED04E227A3BBF7005ECB4B /* Frameworks */,
 				9CED04E327A3BBF7005ECB4B /* Resources */,
@@ -98,6 +128,7 @@
 			name = ProtobufDemo;
 			packageProductDependencies = (
 				9CED050927A3C46B005ECB4B /* SwiftProtobuf */,
+				C42B6B8027C3BE9C001E9D9A /* GRPC */,
 			);
 			productName = ProtobufDemo;
 			productReference = 9CED04E527A3BBF7005ECB4B /* ProtobufDemo.app */;
@@ -128,7 +159,8 @@
 			);
 			mainGroup = 9CED04DC27A3BBF7005ECB4B;
 			packageReferences = (
-				9CED050827A3C46B005ECB4B /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				9CED050827A3C46B005ECB4B /* XCRemoteSwiftPackageReference "swift-protobuf.git" */,
+				C42B6B7F27C3BE9C001E9D9A /* XCRemoteSwiftPackageReference "grpc-swift.git" */,
 			);
 			productRefGroup = 9CED04E627A3BBF7005ECB4B /* Products */;
 			projectDirPath = "";
@@ -152,15 +184,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7278CB290DBAB8019825EA80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProtobufDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CED04E127A3BBF7005ECB4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42B6B7B27C3BCA1001E9D9A /* sample.pb.swift in Sources */,
+				C42B6B7A27C3BCA1001E9D9A /* sample.grpc.swift in Sources */,
+				C42B6B6E27C3B58E001E9D9A /* sample.proto in Sources */,
 				9CED04ED27A3BBF7005ECB4B /* ViewController.swift in Sources */,
-				9CED050727A3C058005ECB4B /* EmailLoginRequest.pb.swift in Sources */,
 				9CED04E927A3BBF7005ECB4B /* AppDelegate.swift in Sources */,
-				9CED050527A3BC66005ECB4B /* EmailLoginRequest.proto in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +362,7 @@
 		};
 		9CED04FA27A3BBF9005ECB4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77D099F7F928B380482E293 /* Pods-ProtobufDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -333,6 +392,7 @@
 		};
 		9CED04FB27A3BBF9005ECB4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620DD13351A02CC69A45A71A /* Pods-ProtobufDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -384,7 +444,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9CED050827A3C46B005ECB4B /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+		9CED050827A3C46B005ECB4B /* XCRemoteSwiftPackageReference "swift-protobuf.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-protobuf.git";
 			requirement = {
@@ -392,13 +452,26 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		C42B6B7F27C3BE9C001E9D9A /* XCRemoteSwiftPackageReference "grpc-swift.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/grpc/grpc-swift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		9CED050927A3C46B005ECB4B /* SwiftProtobuf */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9CED050827A3C46B005ECB4B /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			package = 9CED050827A3C46B005ECB4B /* XCRemoteSwiftPackageReference "swift-protobuf.git" */;
 			productName = SwiftProtobuf;
+		};
+		C42B6B8027C3BE9C001E9D9A /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C42B6B7F27C3BE9C001E9D9A /* XCRemoteSwiftPackageReference "grpc-swift.git" */;
+			productName = GRPC;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
